@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f5f5f5; color: #333; min-height: 100vh; display: flex; justify-content: center; padding: 40px 20px; }
+        .cart-container { background: #fff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,.08); width: 100%; max-width: 720px; padding: 32px; }
+        .cart-title { font-size: 24px; font-weight: 700; margin-bottom: 24px; display: flex; align-items: center; gap: 10px; }
+        .cart-title span { background: #333; color: #fff; font-size: 14px; border-radius: 50%; width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; }
+        .cart-item { display: flex; align-items: center; gap: 16px; padding: 20px 0; border-bottom: 1px solid #eee; }
+        .cart-item img { width: 90px; height: 90px; object-fit: cover; border-radius: 10px; background: #f0f0f0; }
+        .item-details { flex: 1; }
+        .item-name { font-weight: 600; font-size: 16px; margin-bottom: 4px; }
+        .item-description { font-size: 13px; color: #888; margin-bottom: 10px; }
+        .item-price { font-weight: 700; font-size: 16px; color: #2d2d2d; }
+        .item-actions { display: flex; align-items: center; gap: 14px; }
+        .quantity-controls { display: flex; align-items: center; gap: 8px; border: 1px solid #ddd; border-radius: 8px; padding: 4px 8px; }
+        .quantity-controls button { background: none; border: none; font-size: 18px; cursor: pointer; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border-radius: 6px; color: #555; transition: background .2s; }
+        .quantity-controls button:hover { background: #f0f0f0; }
+        .quantity-value { font-weight: 600; font-size: 15px; min-width: 20px; text-align: center; }
+        .btn-like { background: none; border: none; font-size: 22px; cursor: pointer; color: #ccc; transition: color .2s; }
+        .btn-like.liked { color: #e74c3c; }
+        .btn-delete { background: none; border: none; font-size: 20px; cursor: pointer; color: #ccc; transition: color .2s; }
+        .btn-delete:hover { color: #e74c3c; }
+        .cart-summary { margin-top: 24px; padding-top: 20px; border-top: 2px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+        .total-label { font-size: 18px; font-weight: 600; }
+        .total-price { font-size: 24px; font-weight: 700; color: #2d2d2d; }
+        .empty-message { text-align: center; padding: 40px 0; color: #aaa; font-size: 16px; display: none; }
+    </style>
+</head>
+<body>
+
+<div id="app"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
