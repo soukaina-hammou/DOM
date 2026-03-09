@@ -1,8 +1,8 @@
 // ============ Product Data ============
 const products = [
-  { id: 1, name: "Classic Sneakers", description: "White / Size 42", price: 29.99, image: "https://via.placeholder.com/90x90/e8d5b7/333?text=Shoes", quantity: 1, liked: false },
-  { id: 2, name: "Denim Jacket",    description: "Blue / Size M",   price: 49.99, image: "https://via.placeholder.com/90x90/b7d5e8/333?text=Jacket", quantity: 1, liked: false },
-  { id: 3, name: "Baseball Cap",    description: "Black / One Size", price: 19.99, image: "https://via.placeholder.com/90x90/d5e8b7/333?text=Cap",    quantity: 1, liked: false },
+  { id: 1, name: "Classic Sneakers", description: "White / Size 42", price: 29.99, image: "https://static.ftshp.digital/img/p/9/3/1/4/7/4/931474-full_product.jpg", quantity: 1, liked: false },
+  { id: 2, name: "Denim Jacket",    description: "Blue / Size M",   price: 49.99, image: "https://image.hm.com/assets/hm/75/06/7506e354c0dda3f0389c5a44b720b2268ae1a5a1.jpg?imwidth=2160", quantity: 1, liked: false },
+  { id: 3, name: "Baseball Cap",    description: "Black / One Size", price: 19.99, image: "https://store.moma.org/cdn/shop/files/3a2b0b12-bde3-4a63-bba2-b561dbd7de29_5fa67989-c4a0-4bea-a74b-fb25ed894895.jpg?v=1710971142",    quantity: 1, liked: false },
 ];
 
 // ============ Root ============
